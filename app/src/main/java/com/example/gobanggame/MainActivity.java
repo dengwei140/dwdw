@@ -61,6 +61,7 @@ private  final static String TAG=MainActivity.class.getName();
          String content=response.body().string();
             Log.i(TAG,content);
             startActivity(new Intent(getApplicationContext(),HallActivity.class));
+            //dw
             }
         });
 
